@@ -11,7 +11,7 @@ Tailwind CSS: build responsive and customizable interfaces.
 
 ## Project Structure
 
-## Creating myPortfolio React Application:
+## Creating myPortfolio React-ts Application:
 
 There are different ways to create a React application. I have choosen the best 2 ways of creating it:
 
@@ -25,7 +25,22 @@ npx create-react-app@latest ./client --template typescript
 
 ### The Vite way:
 
-1.npm install -g create-vite / npm create vite@latest
+<!-- To install Vite globally: -->
 
-1. npm create-vite@latest my-portfolio -- --template react-ts
-   cd my-portfolio
+1.`npm install -g create-vite`
+
+<!-- To initialise the Vite app with React-ts : -->
+
+2.`npm init vite my-portfolio --template react-ts`
+
+👉This may ask you
+`Need to install the following packages: create-vite@5.1.0`, Enter y(Yes)
+
+👉Select your desired framework (`React`) and Variant (`Typescript`) to proceed further.
+
+👉Scaffolding project in the `path` specified
+
+👉 Perform the below steps to start working:
+`cd my-portfolio`
+`npm install`
+`npm run dev`
