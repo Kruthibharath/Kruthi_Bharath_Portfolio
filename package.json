@@ -1,0 +1,15 @@
+{
+  "name": "kruthi_bharath_portfolio",
+  "version": "1.0.0",
+  "description": "Interactive Personal Portfolio built with React,Typescript and Tailwind",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Kruthibharath/Kruthi_Bharath_Portfolio"
+  },
+  "author": "Kruthi Bharath",
+  "license": "ISC"
+}
