@@ -15,10 +15,10 @@ Tailwind CSS: build responsive and customizable interfaces.
 
 There are different ways to create a React application. I have choosen the best 2 ways of creating it:
 
-1️⃣ `Create React App` - CRA is what we've been using so far in the programme to make our React apps.
+1️⃣ `Create React App` - CRA is what we've been using everywhere to make our React apps.
 
 ```
-npx create-react-app@latest ./client --template typescript
+`npx create-react-app@latest ./client --template typescript`
 ```
 
 2️⃣ `Vite` - [Vite](https://vitejs.dev/guide/) is a popular alternative to Create React App, with faster build times and more flexibility than create-react-app.
@@ -44,3 +44,16 @@ npx create-react-app@latest ./client --template typescript
 `cd my-portfolio`
 `npm install`
 `npm run dev`
+
+👉 In your ROOT `package.json` (i.e. the one in the root folder NOT the one in the my-portfolio folder), edit the existing "start-client" script to:
+`"start-client": "cd my-portfolio && npm run dev",`
+
+👉 Navigate to localhost: http://localhost:5173/
+
+💡 Optionally, you can now change the `my-portfolio/package.json` to open your browser automatically when you start the app, by changing the `dev` script like this:
+
+`"dev": "vite --open"`
+
+👉 Use `npm` to install react-router version 6 and the associated TypeScript @types package (instructions below):
+Make sure you install below in "my-portfolio" by `cd my-portfolio`
+`npm install react-router-dom @types/react-router-dom`
