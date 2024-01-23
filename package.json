@@ -4,7 +4,7 @@
   "description": "Interactive Personal Portfolio built with React,Typescript and Tailwind",
   "main": "index.html",
   "scripts": {
-    "test": "npm test"
+    "start": "cd my-portfolio && npm run dev"
   },
   "repository": {
     "type": "git",
