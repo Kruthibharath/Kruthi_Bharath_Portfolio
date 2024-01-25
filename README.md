@@ -57,3 +57,13 @@ There are different ways to create a React application. I have choosen the best 
 👉 Use `npm` to install react-router version 6 and the associated TypeScript @types package (instructions below):
 Make sure you install below in "my-portfolio" by `cd my-portfolio`
 `npm install react-router-dom @types/react-router-dom`
+
+## TDD - myPortfolio:
+
+👉 Make sure your project has the necessary TypeScript type definitions installed for writing your test-suites
+`npm install --save-dev @types/jest @types/testing-library__jest-dom`
+
+💡 `import '@testing-library/jest-dom'; ` in the .test.tsx files for Jest DOM matchers
+
+💡Ensure that the latest versions of TypeScript and the testing-related packages.
+`npm update typescript @testing-library/react @testing-library/jest-dom`
