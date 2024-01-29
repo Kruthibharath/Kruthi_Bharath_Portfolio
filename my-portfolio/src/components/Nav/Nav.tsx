@@ -37,7 +37,7 @@ export const Nav: React.FC = () => {
             <h2>Kruthi Bharath</h2>
           </NavLink>
         </div>
-        <ul className="navbar_container_menu">
+        <ul className={`navbar_container_menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, index) => (
             <li key={index} className="navbar_container_menu_item">
               <NavLink
