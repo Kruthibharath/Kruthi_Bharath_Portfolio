@@ -1,25 +1,59 @@
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { HiX } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
+import "./Nav.scss";
+
+const data = [
+  {
+    label: "Home",
+    to: "/",
+  },
+  {
+    label: "About Me",
+    to: "aboutMe",
+  },
+  {
+    label: "Work Experience",
+    to: "experience",
+  },
+  {
+    label: "Contact",
+    to: "contact",
+  },
+];
 
 export const Nav: React.FC = () => {
+  const [toggleIcon, setToggleIcon] = useState(false);
+  const handleToggleIcon = () => {
+    setToggleIcon(!toggleIcon);
+  };
+
   return (
-    <ul>
-      <li>
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? "active" : "")}
-        >
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to="/aboutMe">About Me</NavLink>
-      </li>
-      <li>
-        <NavLink to="/experience">Work Experience</NavLink>
-      </li>
-      <li>
-        <NavLink to="/contact">Contact Details</NavLink>
-      </li>
-    </ul>
+    <>
+      <nav className="navbar">
+        <div className="navbar_container">
+          <NavLink to="/" className="navbar_container_logo">
+            <h2>Kruthi Bharath</h2>
+          </NavLink>
+        </div>
+        <ul className="navbar_container_menu">
+          {data.map((item, index) => (
+            <li key={index} className="navbar_container_menu_item">
+              <NavLink
+                to={item.to}
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
+          <li></li>
+        </ul>
+        <div className="nav-icon" onClick={handleToggleIcon}>
+          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
+        </div>
+      </nav>
+    </>
   );
 };

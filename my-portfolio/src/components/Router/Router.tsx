@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { MainLayout } from "../MainLayout/MainLayout";
-import { AboutMe } from "../AboutMe/AboutMe";
+import { AboutMe } from "../../pages/AboutMe/AboutMe";
 import { Home } from "../../pages/Home/Home";
 
 export const Router: React.FC = () => {

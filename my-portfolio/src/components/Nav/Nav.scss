@@ -1,0 +1,44 @@
+.navbar {
+  background: var(--navBar-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 20px;
+
+  &_container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    &_logo {
+      cursor: pointer;
+      font-size: 1.5rem;
+      background: none !important;
+      color: var(--primary);
+    }
+    &_menu {
+      display: flex;
+      list-style-type: none;
+      text-align: center;
+      margin-left: auto; /*aligns the nav items to right end*/
+      gap: 14px;
+
+      &_item {
+        line-height: 40px;
+        margin-right: 1.5rem;
+        font-size: 1.4rem;
+        a {
+          text-decoration: none;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+.nav-icon {
+  display: none;
+}
+nav a.active {
+  background: var(--primary);
+}
