@@ -58,6 +58,9 @@ There are different ways to create a React application. I have choosen the best 
 Make sure you install below in "my-portfolio" by `cd my-portfolio`
 `npm install react-router-dom @types/react-router-dom`
 
+👉Use `npm` to install dev-dependency packages like "react-icon", "sass", "rc-progress", "react-vertical-timeline-component" ["react-ts-particles" "tsparticles"]
+`npm install  react-icons sass rc-progress`
+
 ## TDD - myPortfolio:
 
 👉 Make sure your project has the necessary TypeScript type definitions installed for writing your test-suites
