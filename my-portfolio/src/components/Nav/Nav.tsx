@@ -34,7 +34,7 @@ export const Nav: React.FC = () => {
       <nav className="navbar">
         <div className="navbar_container">
           <NavLink to="/" className="navbar_container_logo">
-            <h2>Kruthi Bharath</h2>
+            <h2>Kruthi</h2>
           </NavLink>
         </div>
         <ul className={`navbar_container_menu ${toggleIcon ? "active" : ""}`}>
@@ -48,7 +48,6 @@ export const Nav: React.FC = () => {
               </NavLink>
             </li>
           ))}
-          <li></li>
         </ul>
         <div className="nav-icon" onClick={handleToggleIcon}>
           {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
