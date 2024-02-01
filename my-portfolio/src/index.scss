@@ -20,11 +20,15 @@ body {
   font-size: 1.5rem;
   line-height: 1.7rem;
 }
-
+li {
+  list-style: none;
+}
 img {
   height: auto;
 }
-
+a {
+  text-decoration: none;
+}
 p {
   margin: 20px 0;
 }

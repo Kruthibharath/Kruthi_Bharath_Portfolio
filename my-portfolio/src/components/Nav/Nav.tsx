@@ -28,6 +28,9 @@ export const Nav: React.FC = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+  const handleMenuItemclick = () => {
+    setToggleIcon(false);
+  };
 
   return (
     <>
@@ -43,6 +46,7 @@ export const Nav: React.FC = () => {
               <NavLink
                 to={item.to}
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={handleMenuItemclick}
               >
                 {item.label}
               </NavLink>

@@ -1,0 +1,11 @@
+.personalInfo {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  &_lists {
+    display: flex;
+    align-items: center;
+    a {
+      padding-left: 10px;
+    }
+  }
+}
