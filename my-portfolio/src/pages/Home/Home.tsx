@@ -2,8 +2,14 @@ import { SocialMedia } from "../../components/SocialMedia/SocialMedia";
 import heroImage from "../../assets/images/kruthi.jpg";
 import "./Home.scss";
 import { PersonalDetails } from "../../components/PersonalDetails/PersonalDetails";
+import { useNavigate } from "react-router-dom";
+import { Contact } from "../Contact/Contact";
 
 export const Home: React.FC = () => {
+  const navigate = useNavigate();
+  //console.log(navigate);
+  const handleNavigateToContact = () => navigate(`/${Contact}`);
+  const handleDownloadCV = () => {};
   return (
     <>
       <section className="hero">
@@ -11,9 +17,10 @@ export const Home: React.FC = () => {
           <h1>Kruthi Bharath</h1>
           <h2>Front End Web Developer</h2>
           <p>
-            Hi, I am Kruthi Bharath looking for the Front End Web Developer
-            position in the London area. This is my portfolio to showcase my
-            skills, experience and projects I have worked so far.
+            Passionnate Front End Web Developer skilled in creating clean and
+            efficient user interfaces. Professional experience in developing
+            interactive, cross-browser, cross-device compatible web
+            applications.
           </p>
           <PersonalDetails />
           <SocialMedia />
@@ -25,10 +32,11 @@ export const Home: React.FC = () => {
             src={heroImage}
           />
         </div>
-        <div className="hero_contactInfo">
-          <button></button>
-        </div>
       </section>
+      <div className="hero_connect_wrapper">
+        <button onClick={handleDownloadCV}>Download CV</button>
+        <button onClick={handleNavigateToContact}>Contact Me</button>
+      </div>
     </>
   );
 };
