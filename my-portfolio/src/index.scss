@@ -4,6 +4,7 @@
   --primary: #bc4123;
   --secondary: #2b3452;
   --navBar-background: #1e2334;
+  --section-heading: #ff7c5b;
 }
 
 * {
@@ -12,7 +13,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 0;
   font-family: "poppins";
@@ -30,7 +30,9 @@ a {
   text-decoration: none;
 }
 p {
+  font-size: 1.2rem;
   margin: 20px 0;
+  line-height: 2rem;
 }
 
 h1 {
@@ -41,6 +43,10 @@ h1 {
 h2 {
   font-size: 2.5rem;
   line-height: 3.5rem;
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
 /*button {
