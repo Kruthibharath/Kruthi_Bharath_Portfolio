@@ -14,9 +14,9 @@ export const Skills = () => {
                   <p>{skillItem.SkillName}</p>
                   <Line
                     percent={skillItem.percentage}
-                    strokeWidth="2"
+                    strokeWidth={2}
                     strokeColor="var(--primary)"
-                    trailWidth="2"
+                    trailWidth={2}
                     strokeLinecap="square"
                   />
                 </div>

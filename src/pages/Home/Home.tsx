@@ -2,13 +2,13 @@ import { SocialMedia } from "../../components/SocialMedia/SocialMedia";
 import heroImage from "../../assets/images/kruthi2.jpg";
 import "./Home.scss";
 import { PersonalDetails } from "../../components/PersonalDetails/PersonalDetails";
-import { useNavigate } from "react-router-dom";
-import { Contact } from "../Contact/Contact";
+//import { useNavigate } from "react-router-dom";
+//import { Contact } from "../Contact/Contact";
 
 export const Home: React.FC = () => {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   //console.log(navigate);
-  const handleNavigateToContact = () => navigate(`/${Contact}`);
+  const handleNavigateToContact = () => {};
   const handleDownloadCV = () => {};
   return (
     <>
