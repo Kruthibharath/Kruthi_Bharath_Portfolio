@@ -1,13 +1,12 @@
 # Interactive Personal Portfolio Built with Next-Gen Web Tech
 
-My personal portfolio website, built with React, Vite, TypeScript, and Tailwind CSS, offers a dynamic and responsive platform to explore my skills and experience. Featuring interactive elements, data visualizations, and a mobile-friendly design, it showcases my passion for clean code and modern web development. Through this project, I honed my skills in building performant and accessible user interfaces. I invite you to explore the code on GitHub and consider this website a testament to my ability to deliver innovative solutions.
+My personal portfolio website, built with React, Vite, and SASS, offers a dynamic and responsive platform to exhibits my skills and experience. Featuring interactive elements, data visualizations, and a mobile-friendly design, it showcases my passion for clean code and modern web development. Through this project, I demostrate my skills in building performant and accessible user interfaces. I welcome you to explore the code on GitHub and consider this website a testament to my ability to deliver innovative solutions.
 
 ## Tech Stack used:
 
-React: modern framework for dynamic and engaging user interfaces.
+React: modern framework for dynamic, smooth and interactive user interfaces.
 Vite: lightning-fast development server and bundler.
-TypeScript: improved type safety and code stability.
-Tailwind CSS: build responsive and customizable interfaces.
+SASS - CSS-Preprocessor: build responsive, streamline styling process.
 
 ## Project Structure
 
