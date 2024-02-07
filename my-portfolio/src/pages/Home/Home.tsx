@@ -1,5 +1,5 @@
 import { SocialMedia } from "../../components/SocialMedia/SocialMedia";
-import heroImage from "../../assets/images/kruthi.jpg";
+import heroImage from "../../assets/images/kruthi2.jpg";
 import "./Home.scss";
 import { PersonalDetails } from "../../components/PersonalDetails/PersonalDetails";
 import { useNavigate } from "react-router-dom";
@@ -17,7 +17,7 @@ export const Home: React.FC = () => {
           <h1>Kruthi Bharath</h1>
           <h2>Front End Web Developer</h2>
           <p>
-            Passionnate Front End Web Developer skilled in creating clean and
+            Passionnate Front End Web Developer skilled in creating neat and
             efficient user interfaces. Professional experience in developing
             interactive, cross-browser, cross-device compatible web
             applications.
