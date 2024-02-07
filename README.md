@@ -1,3 +1,5 @@
+# Kruthi_Portfolio
+
 # Interactive Personal Portfolio Built with Next-Gen Web Tech
 
 My personal portfolio website, built with React, Vite, and SASS, offers a dynamic and responsive platform to exhibits my skills and experience. Featuring interactive elements, data visualizations, and a mobile-friendly design, it showcases my passion for clean code and modern web development. Through this project, I demostrate my skills in building performant and accessible user interfaces. I welcome you to explore the code on GitHub and consider this website a testament to my ability to deliver innovative solutions.
