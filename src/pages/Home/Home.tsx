@@ -1,5 +1,5 @@
 import { SocialMedia } from "../../components/SocialMedia/SocialMedia";
-import heroImage from "../../assets/images/kruthi2.jpg";
+import socialMediaIcons from "../../utils/SocialMediaIcons";
 import "./Home.scss";
 import { PersonalDetails } from "../../components/PersonalDetails/PersonalDetails";
 //import { useNavigate } from "react-router-dom";
@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
           <img
             className="hero_image"
             alt="Image of Kruthi Bharath"
-            src={heroImage}
+            src={socialMediaIcons.heroImage}
           />
         </div>
       </section>

@@ -1,7 +1,5 @@
 import "./PersonalDetails.scss";
-import emailIcon from "../../assets/images/email-48.png";
-import phoneIcon from "../../assets/images/phone-48.png";
-import addressIcon from "../../assets/images/home-48.png";
+import socialMediaIcons from "../../utils/SocialMediaIcons";
 export const PersonalDetails = () => {
   const PersonalInfo = {
     email: "kruthi.bharath@gmail.com",
@@ -15,15 +13,15 @@ export const PersonalDetails = () => {
     <ul className="personalInfo">
       <li className="personalInfo_lists">
         {/* <strong>Email: </strong> */}
-        <img src={emailIcon} alt="" />
+        <img src={socialMediaIcons.emailIcon} alt="" />
         <a href={`mailto:${PersonalInfo.email}`}>{PersonalInfo.email}</a>
       </li>
       <li className="personalInfo_lists">
-        <img src={phoneIcon} alt="" />
+        <img src={socialMediaIcons.phoneIcon} alt="" />
         <a href={`tel:${PersonalInfo.phone}`}>{PersonalInfo.phone}</a>
       </li>
       <li className="personalInfo_lists">
-        <img src={addressIcon} alt="" />
+        <img src={socialMediaIcons.addressIcon} alt="" />
         <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
           {PersonalInfo.homeAddress}
         </a>

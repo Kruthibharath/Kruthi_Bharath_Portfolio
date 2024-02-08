@@ -1,4 +1,4 @@
-import images from "./images";
+import skillsIcons from "../../utils/SkillsIcons";
 import { expertiseData } from "./expertise_data";
 import "./Expertise.scss";
 
@@ -13,7 +13,7 @@ export const Expertise: React.FC = () => {
               {/* <p>{tools.label}</p> */}
               {tools.name.map((tool, k) => (
                 <li key={k} className="expertise_content-listItem">
-                  <img src={images[`${tool}Icon`]} alt={`${tool}Icon`} />
+                  <img src={skillsIcons[`${tool}Icon`]} alt={`${tool}Icon`} />
                   <span>{tool}</span>
                 </li>
               ))}

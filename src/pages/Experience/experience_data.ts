@@ -25,8 +25,8 @@ export const experienceData = {
         "Collaborated with Corporate Event Planners, LOBs , Developers across global teams to build, configure and maintain Corporate Event Management Email templates, Websites and Registration Forms",
       TechStack: [
         "HTML5",
-        "CSS3",
         "Javascript",
+        "React",
         "Email templates",
         "Branding",
         "Bootstrap",
@@ -59,7 +59,6 @@ export const experienceData = {
         "Contributed to building a company intranet portal for client, enabling employees, suppliers, and clients to participate and collaborate on business processes.",
       TechStack: [
         "HTML5",
-        "CSS3",
         "SASS",
         "Bootstrap",
         "jQuery",
