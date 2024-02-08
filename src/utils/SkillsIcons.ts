@@ -17,7 +17,7 @@ export default images;
 ES6 Module syntax doesn't support dynamic imports for image files by default. 
 Imports are resolved statically at compile time,so can't use variables or dynamic strings as import paths.
 Bundles like 'webpack' uses "require" in the context to handle the dynamic import resolution during bundling.
-
+*/
 
 const skillsIcons: { [key: string]: string } = {
   BootstrapIcon: require("../../assets/images/bootstrap-96.png"),
@@ -39,4 +39,3 @@ const skillsIcons: { [key: string]: string } = {
 };
 
 export default skillsIcons;
-*/
