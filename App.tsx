@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <HashRouter>
-        <Router data-testid="routerComponent" />
+        <Router/>
       </HashRouter>
     </>
   );

@@ -5,7 +5,7 @@ export const experienceData = {
       Company: "TechReturners",
       date: "Oct 2023 - Jan 2024",
       description:
-        "Upskilled in Front-end technologies by pursuing technical training encompassing the modules - Advanced JavaScript, Typescript, Semantic HTML and ARIA, MVCs, APIs, Responsive Design, React Hooks, Fetching Data in React, React Routers, TDD",
+        "Upskilled in Front-end technologies by pursuing technological projects encompassing the modules - Advanced JavaScript, Typescript, Semantic HTML and ARIA, MVCs, APIs, Responsive Design, React Hooks, Fetching Data in React, React Routers, TDD",
       TechStack: [
         "HTML5",
         "CSS3",
